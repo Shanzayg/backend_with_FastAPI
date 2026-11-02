@@ -1,0 +1,49 @@
+{
+  "patients": [
+    {
+      "patient_id": 1001,
+      "name": "Sample Patient A",
+      "age": 34,
+      "gender": "Female",
+      "blood_group": "O+",
+      "city": "Lahore",
+      "appointment_status": "Scheduled"
+    },
+    {
+      "patient_id": 1002,
+      "name": "Sample Patient B",
+      "age": 52,
+      "gender": "Male",
+      "blood_group": "A+",
+      "city": "Karachi",
+      "appointment_status": "Completed"
+    },
+    {
+      "patient_id": 1003,
+      "name": "Sample Patient C",
+      "age": 27,
+      "gender": "Female",
+      "blood_group": "B+",
+      "city": "Faisalabad",
+      "appointment_status": "Cancelled"
+    },
+    {
+      "patient_id": 1004,
+      "name": "Sample Patient D",
+      "age": 45,
+      "gender": "Male",
+      "blood_group": "AB+",
+      "city": "Islamabad",
+      "appointment_status": "Scheduled"
+    },
+    {
+      "patient_id": 1005,
+      "name": "Sample Patient E",
+      "age": 61,
+      "gender": "Female",
+      "blood_group": "O-",
+      "city": "Multan",
+      "appointment_status": "Completed"
+    }
+  ]
+}
