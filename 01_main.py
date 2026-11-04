@@ -48,6 +48,8 @@ def skills():
         ]
     }
 
+
+## Path Parameters
 @app.get("/patient/{patient_id}")
 def get_patient(patient_id: int = Path(..., description="ID of the patient in the db", example='1002')):
     data = load_data()
@@ -77,7 +79,7 @@ def view():
     return data
 
 
-
+## HTTP status codes
 @app.get("/patients")
 def get_patients(
     sort: str = "patient_id",
