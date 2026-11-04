@@ -31,5 +31,7 @@ print(patient1.address.city)
 print(patient1.address.pin)
 
 temp = patient1.model_dump()
+temp = patient1.model_dump_json()
+
 print(temp)
 print(type(temp))
