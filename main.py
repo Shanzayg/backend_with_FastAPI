@@ -4,6 +4,12 @@ from pydantic import BaseModel, Field, computed_field
 from typing import Annotated, Literal, Optional
 import json
 
+# We have a patient management system using crud that works fine and is complete in main.py (this file)
+# to run that we are using the older version of virtual environment
+# first ask google how to activate it
+# then use cmd uvicorn main:app --reload in the terminal and then open the url ... 
+# for fastapi basics , take a look at this file  main.py 
+
 app = FastAPI(
     title="FastAPI for AI",
     description="A beginner-friendly API for learning backend development",

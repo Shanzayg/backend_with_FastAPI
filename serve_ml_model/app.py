@@ -5,6 +5,18 @@ from typing import Literal, Annotated
 import pickle
 import pandas as pd
 
+## here we are trying to serve a ML model with fastAPI thus the model.pkl,
+## we needed three things ; ML model, FastAPI, and a Streamlit frontend 
+# still need to write front end code for streamlit
+## But we got stuck with different codes , so keeping the app.py and model.pkl in a different folder
+## It is incomplete
+
+# But we have a patient management system using crud that works fine and is complete in main.py
+# to run that we are using the older version of virtual environment
+# first ask google how to activate it
+#then use cmd uvicorn main:app --reload in the terminal and then open the url ... 
+# for fastapi basics , take a look at main.py 
+
 ## import the ml model
 with open ('model.pkl', 'rb') as f:
     model = pickle.load(f)
